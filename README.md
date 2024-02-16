@@ -14,7 +14,7 @@ Esse projeto foi criado utilizando as tecnologias:
 Back-End
 <div>
   <img src="https://www.php.net/images/logos/new-php-logo.png">
-  <img src="xampp.svg">
+  <img src="xampp.png">
 
 </div>
 
