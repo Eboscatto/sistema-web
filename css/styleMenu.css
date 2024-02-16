@@ -1,0 +1,75 @@
+:root{
+    --cor-principal: rgb(46, 62, 77);
+    --cor-secundaria: rgb(222, 228, 235);
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: #232F3E;
+    width: 100vw;     
+}
+
+.cabecalho {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  .cabecalho__menu__link {             
+    font-family: Arial, Helvetica, sans-serif;    
+    font-size: 1.2em;
+    color:black;    
+  }  
+nav{
+    margin-top: 3%;
+    margin-left: 5%;
+    max-width: 350px;
+    width: 100%;
+    background-color: #232F3E;
+}
+h1{
+    background-color: #ffffff;
+    padding: 0; 
+    text-align: center;    
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    border-bottom: 1px solid var(--cor-secundaria);
+}
+
+nav ul li a{
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 10px;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    text-decoration: none;           
+}
+
+nav ul li a:hover{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+.rodape {   
+    width: 100%;            
+    margin-top: 8.8%;       
+    padding: 10px;
+    color: black;  
+    background-color: #ffffff;  
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }

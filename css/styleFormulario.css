@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {    
+    width: 100%; 
+    height: 100%;  
+    box-sizing: border-box;
+    background-color: #232f3e;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: peru;
+    margin-left: 0%;
+    margin-top: 0%;
+    justify-content:center;
+    box-sizing: border-box;
+}
+.cabecalho {   
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.cabecalho__menu__link {
+    margin-left: 2%;   
+    font-family: Arial, Helvetica, sans-serif;    
+    font-size: 1.2em;
+    color: black;         
+}
+
+.cabecalho__menu__link:hover {
+    color: blue;    
+}
+
+.titulo {
+    padding-top: 3%;    
+    margin-left: 36%;    
+}
+
+.titulo__subtitulo {
+    font-family: sans-serif;
+    text-decoration-line: underline;   
+    color:peru;       
+}
+
+.formulario{
+    margin-left:36%;
+    width: 50%;
+    height: 50%;
+}
+
+input, select, button {
+    border-radius: 5px;
+}
+
+.grupo__campo {
+    margin-bottom: 1.5em;    
+}
+
+.grupo__campo label {
+    padding-top: .5em;    
+    color: peru;
+    display: block;
+    font-size: 20px;
+}
+
+
+.grupo__campo input[type="text"] {
+    padding: 0.5em;
+    border: 1px solid peru;
+    box-shadow: 2px 2px 2px rgba(0,0,0.2);
+    display: block;
+    font-size: 20px;
+}
+
+.grupo__campo input:focus, .campo select:focus {
+    background-color: #E0E0F8;
+}
+
+.botao {
+    font-size: 1.5em;
+    background: tan;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: rgba(0,0,0.2);
+    text-shadow: rgba(0,0,0.5);
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select {
+    cursor: pointer;
+}
+
+.rodape {    
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 12.8%;
+    padding: 13px;
+    color: black;  
+    background-color: #ffffff;  
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+}

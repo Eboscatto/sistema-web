@@ -1,0 +1,18 @@
+
+# ignore all files in the node_modules/ directory and any of its subdirectories
+node_modules/
+
+# ignore all files in the bootstrap/ directory and any of its subdirectories
+bootstrap/
+
+# ignore all files in the .git/ directory and any of its subdirectories
+.git/
+
+# ignore all files in the .vs/ directory and any of its subdirectories
+.vs/
+
+# ignore all files json
+*.json
+
+# ignore all files js
+*.js
