@@ -32,8 +32,11 @@
     .cabecalho__menu__link {             
       font-family: Arial, Helvetica, sans-serif;    
       font-size: 1.2em;
-      color:black;    
+      color:black;         
     }  
+    .cabecalho__menu__link:hover {
+    color: blue;    
+    }
     .titulo {
       margin-top: 5%;
       font-family: Arial, Helvetica, sans-serif;
