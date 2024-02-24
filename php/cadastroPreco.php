@@ -25,7 +25,7 @@
         }
         .cabecalho__menu__link {             
             font-family: Arial, Helvetica, sans-serif;    
-            font-size: 1.2em;
+            font-size: 1em;
             color:black;    
         }    
         h2{
@@ -46,7 +46,7 @@
         .botao {
             width: 10%;
             border-radius: 10px;
-            font-size: 1.5em;
+            font-size: 1.2em;
             background: tan;
             border: 0;
             margin-bottom: 1em;
@@ -71,14 +71,13 @@
 
         .rodape {   
             width: 100%;            
-            margin-top: 17.5%;
+            margin-top: 24.3%;
             padding-top: 14.2px;
             color: black;  
             background-color: #ffffff;  
             text-align: center;
             font-family:Arial, Helvetica, sans-serif;
-            font-size: 1.1rem;
-            font-weight: 400;
+            font-size: .8rem;            
         }
     </style>        
 </head>
@@ -144,7 +143,7 @@
         </div>
   </body>
     <footer class="rodape">
-        <p>Desenvolvido por: Everaldo Boscatto - 2024.</p>
+    <p>&copy; 2024 Everaldo Boscatto. Todos os direitos reservados.</p>
     </footer>
 </html>
 </html>
